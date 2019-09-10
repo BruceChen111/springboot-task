@@ -19,11 +19,11 @@ public class TestTask {
         System.out.println("执行了任务work2");
     }*/
 
-   /* //    固定时间间隔
+    //    固定时间间隔
     @Scheduled(fixedDelay = 1000 * 5)
     public void work3() {
         System.out.println("执行了任务work3");
-    }*/
+    }
 
 
     //    固定频率任务
