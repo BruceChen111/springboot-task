@@ -8,10 +8,10 @@ public class TestTask {
 
 
 //    每隔五秒钟触发一次
-    @Scheduled(cron = "0/5 * * * * *")
+   /* @Scheduled(cron = "0/5 * * * * *")
     public void work() {
         System.out.println("执行了任务work");
-    }
+    }*/
 
 
     @Scheduled(cron = "30 58 15 * * *")
